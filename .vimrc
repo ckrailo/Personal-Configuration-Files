@@ -44,12 +44,15 @@ set list listchars=trail:· " lcs == listchars
 filetype plugin indent on
 
 " Load all text in memory. WARNING: TURN THIS OFF BEFORE LOADING LARGE FILES.
-set noswapfile
+" set noswapfile
 
 " Automatically reload files when changed outside of vim (such as by a git pull or branch change).
 set autoread " ar == autoread
 
 " TODO: grepprg
+
+" Immediate ESC recognition. Cursor and function keys cannot be used in Insert mode if they start with an <Esc>.
+" set noesckeys " ek == esckeys
 
 " ---- SEARCHING (begin) ----
 " Ignore case when searching, except when uppercase letters are used.
@@ -62,3 +65,7 @@ set incsearch " is == incsearch
 " When there is a previous search pattern, highlight all its matches.
 set hlsearch " hls == hlsearch
 " ---- SEARCHING (end) ----
+
+" ---- LANGUAGE SPECIFIC STUFF (begin) ----
+
+" ---- LANGUAGE SPECIFIC STUFF (end) ----
