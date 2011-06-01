@@ -6,7 +6,7 @@ set nocompatible
 set display=lastline " dy == display
 
 " Turn on syntax highlighting.
-set syntax " syn == syntax
+syntax on " syn == syntax
 
 " Show the line and column number of the current position, separated by a comma.
 set ruler " ru == ruler
