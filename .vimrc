@@ -21,6 +21,9 @@ set laststatus=2 " ls == laststatus
 
 " Make sure VIM is prepared for dark backgrounds.
 set background=dark " bg == background
+
+" Set the colorscheme.
+colorscheme solarized
 " ---- DISPLAY (end) ----
 
 " ---- WHITESPACE (begin) ----
