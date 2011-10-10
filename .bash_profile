@@ -8,6 +8,7 @@ export RAILS_ENV=development
 export ENVIRONMENT=development
 export CLICOLOR=1
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
+export CC=gcc-4.2
 
 # Functions
 function get_git_branch {
