@@ -73,6 +73,8 @@ set incsearch " is == incsearch
 set hlsearch " hls == hlsearch
 " ---- SEARCHING (end) ----
 
-" ---- LANGUAGE SPECIFIC STUFF (begin) ----
+" ---- MAPPING CUSTOM KEYS (begin) ----
+" let mapleader="\" " DEFAULT: \
 
-" ---- LANGUAGE SPECIFIC STUFF (end) ----
+map <leader>n :NERDTreeToggle<CR>
+" ---- MAPPING CUSTOM KEYS (end) ----
