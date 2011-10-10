@@ -1,3 +1,7 @@
+" Setup pathogen
+call pathogen#infect()
+call pathogen#helptags()
+
 " Use vim-specific enhancements and don't worry about backwards compatibility with regular vi.
 set nocompatible
 
