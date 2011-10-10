@@ -1,9 +1,9 @@
+" Use vim-specific enhancements and don't worry about backwards compatibility with regular vi.
+set nocompatible
+
 " Setup pathogen
 call pathogen#infect()
 call pathogen#helptags()
-
-" Use vim-specific enhancements and don't worry about backwards compatibility with regular vi.
-set nocompatible
 
 " ---- DISPLAY (begin) ----
 " Display as much of the last line of a file as possible (otherwise vim would replace the last line with @ lines when it's too long).
