@@ -21,11 +21,12 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:$PATH;
-export PATH=$PATH:/Users/$USER/.rvm/bin; # TODO: Only do this if RVM is installed;
+export PATH=/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:$PATH;
 
 unsetopt auto_name_dirs
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 export CC=gcc-4.2
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
